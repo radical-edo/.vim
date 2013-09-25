@@ -11,7 +11,7 @@ syntax on
 
 autocmd vimenter * NERDTree
 :colorscheme molokai
-:set number
+:set relativenumber
 
 "vim-javascript
 let javascript_enable_domhtmlcss=1
