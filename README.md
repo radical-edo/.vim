@@ -3,14 +3,15 @@
 
 vim settings bundle
 
-Requirements:
+### Requirements:
 
 `vundle` required to instasll all other plugins, if you haven't installed it yet, run the following command:
 
 `git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle`
 
 
-Install to home directory with:
+### Installing:
+In your home directory run:
 
 `git clone git@github.com:radical-edo/.vim.git`
 
