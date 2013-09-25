@@ -1,0 +1,5 @@
+Bundle 'gmarik/vundle'
+Bundle 'pangloss/vim-javascript'
+Bundle 'scrooloose/nerdtree'
+Bundle 'kchmck/vim-coffee-script'
+
