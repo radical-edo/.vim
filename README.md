@@ -18,3 +18,6 @@ In your home directory run:
 (to be sure, there should be `source ~/.vim/vimrc` in your `~/.vimrc` file)
 
 open `vim` and run `:BundleInstall`
+
+### Further configuration
+Maybe required to browse into `bundle/Command-T` and run `rake make` for installing necessary extensions for `Command-T` plugin to work
