@@ -10,8 +10,8 @@ filetype plugin indent on
 syntax on
 
 autocmd vimenter * NERDTree
-:colorscheme molokai
-:set relativenumber
+colorscheme molokai
+set relativenumber
 
 "vim-javascript
 let javascript_enable_domhtmlcss=1
@@ -34,3 +34,8 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set autoindent
+
+"search options
+set hlsearch
+
+"global snippet
