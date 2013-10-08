@@ -7,6 +7,10 @@ call vundle#rc()
 source ~/.vim/vfile
 
 filetype plugin indent on
+"enhanced pairs for jumps between opening and closing tags e.g. def/end
+set nocompatible
+runtime macros/matchit.vim
+
 syntax on
 
 autocmd vimenter * NERDTree
