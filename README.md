@@ -5,7 +5,7 @@ vim settings bundle
 
 ### Requirements:
 
-`vundle` required to instasll all other plugins, if you haven't installed it yet, run the following command:
+`vundle` required to install all other plugins, if you haven't installed it yet, run the following command:
 
 `git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle`
 
