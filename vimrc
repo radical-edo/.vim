@@ -13,7 +13,6 @@ runtime macros/matchit.vim
 
 syntax on
 
-autocmd vimenter * NERDTree
 colorscheme molokai
 set relativenumber
 
@@ -26,7 +25,10 @@ let g:bufExplorerSortBy='fullpath'
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 "NERDTree settings
+autocmd vimenter * NERDTree
+nmap <C-\> :NERDTreeToggle<CR>
 nmap rit :NERDTreeFind<CR>
+
 nmap <C-h> <C-w>h
 nmap <C-l> <C-w>l
 nmap <C-j> <C-w>j
