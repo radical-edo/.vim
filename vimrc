@@ -19,6 +19,10 @@ set relativenumber
 "vim-javascript
 let javascript_enable_domhtmlcss=1
 
+"vim-coffee-script
+let coffee_indent_keep_current = 1
+autocmd BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
+
 let g:bufExplorerShowRelativePath=1
 let g:bufExplorerSortBy='fullpath'
 

@@ -1,6 +1,7 @@
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-surround'
+Bundle 'wincent/Command-T'
 
 Bundle 'pangloss/vim-javascript'
 Bundle 'kchmck/vim-coffee-script'
