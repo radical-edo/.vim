@@ -47,5 +47,6 @@ set autoindent
 
 "search options
 set hlsearch
+set incsearch
 
 "global snippet
