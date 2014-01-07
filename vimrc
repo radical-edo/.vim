@@ -50,3 +50,6 @@ set hlsearch
 set incsearch
 
 "global snippet
+
+"custom syntax highlight
+au BufRead,BufNewFile *.hamlc set ft=haml
