@@ -21,3 +21,5 @@ open `vim` and run `:BundleInstall`
 
 ### Further configuration
 Maybe required to browse into `bundle/Command-T` and run `rake make` for installing necessary extensions for `Command-T` plugin to work
+
+It's important to run above command in with the same ruby version with which vim was compiled.
