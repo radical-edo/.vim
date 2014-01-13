@@ -53,3 +53,4 @@ set incsearch
 
 "custom syntax highlight
 au BufRead,BufNewFile *.hamlc set ft=haml
+au BufRead,BufNewFile *.rabl setf ruby
