@@ -33,10 +33,15 @@ autocmd vimenter * NERDTree
 nmap <C-\> :NERDTreeToggle<CR>
 nmap rit :NERDTreeFind<CR>
 
+"bindings normal mode
 nmap <C-h> <C-w>h
 nmap <C-l> <C-w>l
 nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
+nmap <Space>v "+p
+
+"bindings visual mode
+vmap <Space>c "+y
 
 "indent settings
 set tabstop=2
