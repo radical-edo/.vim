@@ -29,7 +29,9 @@ let g:bufExplorerSortBy='fullpath'
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 "NERDTree settings
-autocmd vimenter * NERDTree
+if argc() == 0 " argc() number of parameters passed to vim
+  autocmd vimenter * NERDTree
+endif
 nmap <C-\> :NERDTreeToggle<CR>
 nmap rit :NERDTreeFind<CR>
 
