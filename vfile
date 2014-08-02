@@ -8,3 +8,4 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'puppetlabs/puppet-syntax-vim'
 
 Bundle 'tpope/vim-rails'
+Bundle 'thoughtbot/vim-rspec'

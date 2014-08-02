@@ -38,6 +38,11 @@ nmap <C-l> <C-w>l
 nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <Space>v "+p
+"rspec
+nmap spt :call RunCurrentSpecFile()<CR>
+nmap spn :call RunNearestSpec()<CR>
+nmap spl :call RunLastSpec()<CR>
+nmap spa :call RunAllSpecs()<CR>
 
 "bindings visual mode
 vmap <Space>c "+y
