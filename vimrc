@@ -39,13 +39,17 @@ nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <Space>v "+p
 "rspec
-nmap spt :call RunCurrentSpecFile()<CR>
-nmap spn :call RunNearestSpec()<CR>
-nmap spl :call RunLastSpec()<CR>
-nmap spa :call RunAllSpecs()<CR>
+nmap <C-t> :call RunCurrentSpecFile()<CR>
+nmap <C-n> :call RunNearestSpec()<CR>
+nmap <C-l> :call RunLastSpec()<CR>
+nmap <C-a> :call RunAllSpecs()<CR>
+"coffee-script
+nmap <C-c> :CoffeeCompile<CR>
 
 "bindings visual mode
 vmap <Space>c "+y
+"coffee-script to compile only selected lines
+vmap <C-c> :CoffeeCompile<CR>
 
 "indent settings
 set tabstop=2
