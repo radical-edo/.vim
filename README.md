@@ -11,9 +11,9 @@ vim settings bundle
 
 
 ### Installing:
-In your home directory run:
+###### extremly important to be in installed home directory. If for some reason one does not want to do that, one has to set the `root_directory` variable in `vimrc` file
 
-`git clone git@github.com:radical-edo/.vim.git`
+`git clone git@github.com:radical-edo/.vim.git ~`
 
 (to be sure, there should be `source ~/.vim/vimrc` in your `~/.vimrc` file)
 
