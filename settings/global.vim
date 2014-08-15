@@ -6,6 +6,7 @@ syntax on
 
 colorscheme molokai
 set relativenumber
+set number
 
 "NERDTree settings
 nmap <C-\> :NERDTreeToggle<CR>
