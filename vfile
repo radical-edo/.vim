@@ -13,7 +13,6 @@ Bundle 'thoughtbot/vim-rspec'
 Bundle 'digitaltoad/vim-jade'
 
 Bundle 'mattn/emmet-vim'
-Bundle "wookiehangover/jshint.vim"
 
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
