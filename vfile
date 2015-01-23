@@ -1,24 +1,30 @@
+"general
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-surround'
 Bundle 'wincent/Command-T'
+Bundle "scrooloose/syntastic"
 
+"javascript/coffeescript
 Bundle 'pangloss/vim-javascript'
 Bundle 'kchmck/vim-coffee-script'
+
 Bundle 'puppetlabs/puppet-syntax-vim'
 
+"rails
 Bundle 'tpope/vim-rails'
 Bundle 'thoughtbot/vim-rspec'
 
+"html
 Bundle 'digitaltoad/vim-jade'
-
 Bundle 'mattn/emmet-vim'
 
+"less
+Bundle 'groenewege/vim-less'
+
+"snippets
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
-
 Bundle "radical-edo/vim-snippets"
-
-Bundle "scrooloose/syntastic"
 
