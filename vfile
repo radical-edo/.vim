@@ -19,3 +19,6 @@ Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
 
 Bundle "radical-edo/vim-snippets"
+
+Bundle "scrooloose/syntastic"
+
