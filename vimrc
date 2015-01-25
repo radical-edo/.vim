@@ -13,4 +13,5 @@ exec ':source '.settings_directory.'/coffee.vim'
 exec ':source '.settings_directory.'/js.vim'
 exec ':source '.settings_directory.'/rabl.vim'
 exec ':source '.settings_directory.'/hamlc.vim'
+exec ':source '.settings_directory.'/syntastic.vim'
 
