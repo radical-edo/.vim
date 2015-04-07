@@ -1,4 +1,5 @@
 function RspecSettings()
+  let g:rspec_command = "!bundle exec rspec {spec}"
   nmap <C-t> :call RunCurrentSpecFile()<CR>
   nmap <C-n> :call RunNearestSpec()<CR>
   nmap <C-b> :call RunLastSpec()<CR>

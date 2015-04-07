@@ -10,10 +10,10 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'kchmck/vim-coffee-script'
 
 Bundle 'puppetlabs/puppet-syntax-vim'
+Bundle 'geekjuice/vim-spec'
 
 "rails
 Bundle 'tpope/vim-rails'
-Bundle 'thoughtbot/vim-rspec'
 
 "html
 Bundle 'digitaltoad/vim-jade'
