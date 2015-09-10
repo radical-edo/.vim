@@ -36,4 +36,10 @@ vmap <Space>c "+y
 let g:bufExplorerShowRelativePath=1
 let g:bufExplorerSortBy='fullpath'
 
+function VerticalResize(width)
+  vertical resize a:width
+endfunction
+
+command -nargs=1 VResize execute "vertical resize" '<args>'
+
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
