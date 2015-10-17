@@ -6,6 +6,7 @@ Bundle 'wincent/Command-T'
 Bundle "scrooloose/syntastic"
 
 "javascript/coffeescript
+Bundle 'mxw/vim-jsx'
 Bundle 'pangloss/vim-javascript'
 Bundle 'kchmck/vim-coffee-script'
 
@@ -28,4 +29,3 @@ Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
 Bundle "radical-edo/vim-snippets"
-
