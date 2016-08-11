@@ -12,6 +12,7 @@ set colorcolumn=100
 "NERDTree settings
 nmap <C-\> :NERDTreeToggle<CR>
 nmap rit :NERDTreeFind<CR>
+let g:NERDTreeWinSize = 40
 
 "indent settings
 set tabstop=2
@@ -29,6 +30,8 @@ nmap <C-h> <C-w>h
 nmap <C-l> <C-w>l
 nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
+
+xnoremap p pgvy
 
 nmap <Space>v "+p
 vmap <Space>c "+y
