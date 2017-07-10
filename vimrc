@@ -19,3 +19,4 @@ exec ':source '.settings_directory.'/hamlc.vim'
 exec ':source '.settings_directory.'/syntastic.vim'
 exec ':source '.settings_directory.'/scss.vim'
 exec ':source '.settings_directory.'/typescript.vim'
+

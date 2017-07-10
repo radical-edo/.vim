@@ -1,1 +1,7 @@
-autocmd FileType typescript JsPreTmpl html
+autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescript.jsx
+" light blues
+hi xmlTagName guifg=#59ACE5
+hi xmlTag guifg=#59ACE5
+
+" dark blues
+hi xmlEndTag guifg=#2974a1

@@ -10,11 +10,14 @@ Bundle 'chrisbra/Colorizer'
 "node
 Bundle 'moll/vim-node'
 
-"javascript/coffeescript
+"javascript/typescript
 Bundle 'Quramy/vim-js-pretty-template'
 Bundle 'mxw/vim-jsx'
 Bundle 'othree/yajs.vim'
+Bundle 'HerringtonDarkholme/yats.vim'
 Bundle 'othree/es.next.syntax.vim'
+Bundle 'pangloss/vim-javascript'
+Bundle 'peitalin/vim-jsx-typescript'
 
 Bundle 'geekjuice/vim-spec'
 
@@ -32,4 +35,3 @@ Bundle "peterhoeg/vim-qml"
 
 "elixir
 Bundle 'elixir-lang/vim-elixir'
-
