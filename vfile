@@ -1,37 +1,40 @@
+"required
+Plugin 'VundleVim/Vundle.vim'
+
 "general
-Bundle 'gmarik/vundle'
-Bundle 'scrooloose/nerdtree'
-Bundle 'tpope/vim-surround'
-Bundle "scrooloose/syntastic"
-Bundle 'flazz/vim-colorschemes'
-Bundle 'ctrlpvim/ctrlp.vim'
-Bundle 'chrisbra/Colorizer'
+Plugin 'gmarik/vundle'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-surround'
+Plugin 'scrooloose/syntastic'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'chrisbra/Colorizer'
 
 "node
-Bundle 'moll/vim-node'
+Plugin 'moll/vim-node'
 
 "javascript/typescript
-Bundle 'Quramy/vim-js-pretty-template'
-Bundle 'mxw/vim-jsx'
-Bundle 'othree/yajs.vim'
-Bundle 'HerringtonDarkholme/yats.vim'
-Bundle 'othree/es.next.syntax.vim'
-Bundle 'pangloss/vim-javascript'
-Bundle 'peitalin/vim-jsx-typescript'
+Plugin 'Quramy/vim-js-pretty-template'
+Plugin 'mxw/vim-jsx'
+Plugin 'othree/yajs.vim'
+Plugin 'HerringtonDarkholme/yats.vim'
+Plugin 'othree/es.next.syntax.vim'
+Plugin 'pangloss/vim-javascript'
+Plugin 'peitalin/vim-jsx-typescript'
 
-Bundle 'geekjuice/vim-spec'
+Plugin 'geekjuice/vim-spec'
 
 "html
-Bundle 'mattn/emmet-vim'
-Bundle 'othree/html5.vim'
+Plugin 'mattn/emmet-vim'
+Plugin 'othree/html5.vim'
 
 "snippets
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle "garbas/vim-snipmate"
-Bundle "honza/vim-snippets"
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
 
-Bundle "peterhoeg/vim-qml"
+Plugin 'peterhoeg/vim-qml'
 
 "elixir
-Bundle 'elixir-lang/vim-elixir'
+Plugin 'elixir-lang/vim-elixir'

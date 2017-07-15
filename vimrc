@@ -2,9 +2,10 @@ set nocompatible
 filetype off
 
 let root_directory = expand('~/.vim')
-exec ':set rtp+='.root_directory.'/bundle/vundle'
-call vundle#rc()
+exec ':set rtp+='.root_directory.'/bundle/Vundle.vim'
+call vundle#begin()
 exec ':source '.root_directory.'/vfile'
+call vundle#end()
 
 let settings_directory = root_directory.'/settings'
 exec ':source '.settings_directory.'/global.vim'
