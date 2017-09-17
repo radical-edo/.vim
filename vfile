@@ -18,9 +18,7 @@ Plugin 'Quramy/vim-js-pretty-template'
 Plugin 'mxw/vim-jsx'
 Plugin 'othree/yajs.vim'
 Plugin 'HerringtonDarkholme/yats.vim'
-Plugin 'othree/es.next.syntax.vim'
 Plugin 'pangloss/vim-javascript'
-Plugin 'peitalin/vim-jsx-typescript'
 
 Plugin 'geekjuice/vim-spec'
 
