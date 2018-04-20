@@ -5,7 +5,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'gmarik/vundle'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-surround'
-Plugin 'scrooloose/syntastic'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'chrisbra/Colorizer'
@@ -14,11 +13,13 @@ Plugin 'chrisbra/Colorizer'
 Plugin 'moll/vim-node'
 
 "javascript/typescript
+Plugin 'prettier/vim-prettier'
 Plugin 'Quramy/vim-js-pretty-template'
 Plugin 'mxw/vim-jsx'
-Plugin 'othree/yajs.vim'
-Plugin 'HerringtonDarkholme/yats.vim'
 Plugin 'pangloss/vim-javascript'
+Plugin 'ianks/vim-tsx'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'Galooshi/vim-import-js'
 
 Plugin 'geekjuice/vim-spec'
 

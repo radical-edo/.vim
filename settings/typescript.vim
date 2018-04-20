@@ -1,4 +1,4 @@
-autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescript.jsx
+" autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescript.jsx
 " light blues
 hi xmlTagName guifg=#59ACE5
 hi xmlTag guifg=#59ACE5
