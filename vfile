@@ -8,6 +8,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'chrisbra/Colorizer'
+Plugin 'ryanoasis/vim-devicons'
 
 "node
 Plugin 'moll/vim-node'

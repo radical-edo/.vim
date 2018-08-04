@@ -1,4 +1,5 @@
 set nocompatible
+
 filetype off
 
 let root_directory = expand('~/.vim')
