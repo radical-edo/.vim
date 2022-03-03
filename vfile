@@ -13,6 +13,9 @@ Plugin 'ryanoasis/vim-devicons'
 "node
 Plugin 'moll/vim-node'
 
+"python
+Plugin 'vim-python/python-syntax'
+
 "javascript/typescript
 Plugin 'prettier/vim-prettier'
 Plugin 'Quramy/vim-js-pretty-template'
@@ -21,21 +24,17 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'ianks/vim-tsx'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'Galooshi/vim-import-js'
-
-Plugin 'geekjuice/vim-spec'
+Plugin 'styled-components/vim-styled-components'
 
 "html
 Plugin 'mattn/emmet-vim'
 Plugin 'othree/html5.vim'
-Plugin 'lumiliet/vim-twig'
 
-"snippets
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
-Plugin 'honza/vim-snippets'
+"autocomplete
+Plugin 'tabnine/YouCompleteMe'
 
-Plugin 'peterhoeg/vim-qml'
+"c++
+Plugin 'rhysd/vim-clang-format'
 
-"elixir
-Plugin 'elixir-lang/vim-elixir'
+"nginx
+Plugin 'LeonB/vim-nginx'
