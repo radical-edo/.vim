@@ -3,12 +3,13 @@ Plugin 'VundleVim/Vundle.vim'
 
 "general
 Plugin 'gmarik/vundle'
-Plugin 'scrooloose/nerdtree'
+Plugin 'preservim/nerdtree'
 Plugin 'tpope/vim-surround'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'chrisbra/Colorizer'
 Plugin 'ryanoasis/vim-devicons'
+Plugin 'preservim/nerdcommenter'
 
 "node
 Plugin 'moll/vim-node'
@@ -38,3 +39,6 @@ Plugin 'rhysd/vim-clang-format'
 
 "nginx
 Plugin 'LeonB/vim-nginx'
+
+"rust
+Plugin 'rust-lang/rust.vim'
